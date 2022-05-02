@@ -21,7 +21,7 @@ In past years, the world has switched to many-core and multi-core shared memory 
   In this work, we propose leveraging recent advances in machine learning techniques, specifically in natural language processing (NLP), to replace S2S compilers altogether.
   We create a database (corpus), OpenMP-OMP specifically for this goal. OpenMP-OMP contains over 28,000 code snippets, half of which contain OpenMP directives while the other half do not need parallelization at all with high probability.
   We use the corpus to train systems to automatically classify code segments in need of parallelization, as well as suggest individual OpenMP clauses.
-  We train several transformer models, named PragFormer, for these tasks, and show that they outperform statistically-trained baselines and automatic S2S parallelization compilers in both classifying the overall need for an OpenMP directive and the introduction of \emph{private} and \emph{reduction} clauses.
+  We train several transformer models, named PragFormer, for these tasks, and show that they outperform statistically-trained baselines and automatic S2S parallelization compilers in both classifying the overall need for an OpenMP directive and the introduction of private and reduction clauses.
   
   ![pragformer](https://user-images.githubusercontent.com/104314626/165228036-d7fadd8d-768a-4e94-bd57-0a77e1330082.png)
 
