@@ -1,5 +1,5 @@
 # PragFromer: Learning to Parallelize in a Shared-Memory Environment with Transformers
-This repository contains the official source code used to produce the results reported in this [TBA].
+This repository contains the official source code used to produce the results reported in [this](https://arxiv.org/abs/2204.12835) paper.
 
 <details><summary><strong>Table of Contents</strong></summary>
 
@@ -42,7 +42,7 @@ python==3.7
 
 ## 3. Database
 
-The database is located [here](https://github.com/pragformer/PragFormer/blob/main/Open_OMP.tar.gz)
+The database is located [here](https://drive.google.com/file/d/1ubMugpvmE0ePxQs4T8l6QHgbEI63KoXG/view?usp=sharing)
 It contains folders, whereas each folder contains 3 files:
 1. **code.c** - contains the textual code 
 2. **pragma.c** - contains the pragma of the corresponding code.c -- if no pragma is found, the file doesn't exist
