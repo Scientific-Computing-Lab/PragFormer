@@ -1,5 +1,5 @@
 # PragFromer: Learning to Parallelize in a Shared-Memory Environment with Transformers
-This repository contains the official source code used to produce the results reported in [this](https://arxiv.org/abs/2204.12835) paper.
+This repository contains the official source code used to produce the results reported in [TBD] paper.
 
 <details><summary><strong>Table of Contents</strong></summary>
 
